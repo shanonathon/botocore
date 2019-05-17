@@ -2689,7 +2689,7 @@
       "sqs" : {
         "defaults" : {
           "protocols" : [ "http", "https" ],
-          "sslCommonName" : "{region}.queue.{dnsSuffix}"
+          "sslCommonName" : "sqs.{region}.{dnsSuffix}"
         },
         "endpoints" : {
           "ap-east-1" : { },
